@@ -44,3 +44,12 @@ const CString filetype("*.doc");  //target file
 ~~~
 將doc改成任何的其它已知的副檔名即可。
 
+## 預設使用「系統管理員執行」
+
+設定 Visual Studio 專案檔
+
+[Project]>[Properties]>[Linker]>[Manifest File]
+
+設定UAC Execution Level: requireAdministrator
+
+參考：http://mqjing.blogspot.tw/2008/12/blog-post.html
